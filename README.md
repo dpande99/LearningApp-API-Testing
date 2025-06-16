@@ -1,6 +1,6 @@
-# AI Onboarding Platform – API Testing Suite
+# LearningApp – API Testing Suite
 
-This repository contains Python scripts to test the endpoints of the **AI Onboarding Platform** hosted on AWS API Gateway. The API provides capabilities such as document generation, RAG-based question answering, and more, tailored to user roles and experience levels.
+This repository contains Python scripts to test the endpoints of the **LearningApp** hosted on AWS API Gateway. The API provides capabilities such as document generation, RAG-based question answering, and more, tailored to user roles and experience levels.
 
 ## Repository Structure
 
