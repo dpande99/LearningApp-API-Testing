@@ -30,7 +30,8 @@ AUTH_HEADER = {"Authorization": f"Bearer {BEARER_TOKEN}"}
 User Role & Experience Requirements
 Some endpoints validate user role and experience before processing the request.
 
-### Allowed Roles ####
+## Allowed Roles
+
 Data Engineer
 Data Analyst
 Business Analyst
@@ -39,22 +40,23 @@ UI/UX Developer
 Test Engineer
 Other
 
-#### Allowed Experience Levels ###
+## Allowed Experience Levels 
 Beginner
 Intermediate
 Advanced
 Expert
 
-# Update these in test.py:
+## Update these in test.py:
 
 selected_user_role = "Data Analyst"
 selected_experience = "Intermediate"
 
-### If invalid values are used (e.g., "DevOps" or "5 years"), related tests will be skipped with a warning.
+**If invalid values are used (e.g., "DevOps" or "5 years"), related tests will be skipped with a warning.**
 
 
->>> how to run?
-## Install dependencies:
+## how to run?
+
+Install dependencies:
 pip install requests
 
 From your terminal, run:
